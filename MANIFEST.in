@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zarvanerp *.css
+recursive-include zarvanerp *.csv
+recursive-include zarvanerp *.html
+recursive-include zarvanerp *.ico
+recursive-include zarvanerp *.js
+recursive-include zarvanerp *.json
+recursive-include zarvanerp *.md
+recursive-include zarvanerp *.png
+recursive-include zarvanerp *.py
+recursive-include zarvanerp *.svg
+recursive-include zarvanerp *.txt
+recursive-exclude zarvanerp *.pyc
